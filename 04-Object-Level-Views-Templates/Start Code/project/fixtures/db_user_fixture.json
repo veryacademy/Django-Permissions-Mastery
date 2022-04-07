@@ -1,0 +1,47 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "a@a.com",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "user-project-manager",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "b@b.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "user-team-leader",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "c@c.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "user-project-member-1",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "d@d.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  }
+]
