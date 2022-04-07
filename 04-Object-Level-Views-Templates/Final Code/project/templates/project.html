@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}
+Project Listings
+{% endblock %}
+{% block content %}
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row">
+        {% for project in projects %}
+        <div class="col-md-4">
+          <a class="text-dark" href="{{project.get_absolute_url}}">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <h2 style="font-size:18px;font-weight:bold">{{project.name}}</h2>
+                </a>
+                <p class="card-text">{{project.description}}</p>
+              </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% if perms.project.can_add_new_project  %}
+          <a href="/project/new" class="btn btn-primary btn-lg px-4 gap-3" role="button" aria-disabled="true">New Project</a>
+        {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

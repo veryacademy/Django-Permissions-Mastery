@@ -1,0 +1,11 @@
+asgiref==3.5.0
+black==22.3.0
+click==8.1.2
+Django==4.0.3
+django-guardian==2.4.0
+mypy-extensions==0.4.3
+pathspec==0.9.0
+platformdirs==2.5.1
+sqlparse==0.4.2
+tomli==2.0.1
+typing-extensions==4.1.1
